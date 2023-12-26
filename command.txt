@@ -1,0 +1,9 @@
+> go mod init github.com/franklahm78/go-say-hello
+> git init
+> git add .
+> git commit -m "first init"
+> git remote add origin git@github.com:franklahm78/go-say-hello.git
+> ssh-keygen -t ed25519 -C "frank.lahm78@gmail.com" -> need to add ssh also in github
+> git push origin main 
+> git tag v1.0.0
+> git push origin v1.0.0
